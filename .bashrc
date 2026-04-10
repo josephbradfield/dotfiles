@@ -116,8 +116,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Add this to your .bashrc in the dotfiles repo
-export GIT_AUTHOR_NAME="Joseph Bradfield"
-export GIT_AUTHOR_EMAIL="${USER}@ucr.edu"
-export GIT_COMMITTER_EMAIL="${USER}@ucr.edu"
-
