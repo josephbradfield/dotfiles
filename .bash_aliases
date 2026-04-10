@@ -1,0 +1,5 @@
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias mfs='./vendor/bin/sail artisan migrate:fresh --seed'
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias mfs='./vendor/bin/sail artisan migrate:fresh --seed'
+alias vapor='vendor/bin/vapor '
